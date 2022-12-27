@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-booki-React/static/css/main.1b079ebf.css",
+    "main.js": "/frontend-booki-React/static/js/main.77523e6c.js",
+    "static/js/787.bffb404a.chunk.js": "/frontend-booki-React/static/js/787.bffb404a.chunk.js",
+    "index.html": "/frontend-booki-React/index.html",
+    "main.1b079ebf.css.map": "/frontend-booki-React/static/css/main.1b079ebf.css.map",
+    "main.77523e6c.js.map": "/frontend-booki-React/static/js/main.77523e6c.js.map",
+    "787.bffb404a.chunk.js.map": "/frontend-booki-React/static/js/787.bffb404a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b079ebf.css",
+    "static/js/main.77523e6c.js"
+  ]
+}
