@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="banner">
       <header className='header'>
         <Link to="/">
-        <img className='header-logo' src="/assets/images/Booki.png" alt="logo de Booki" />
+        <img className='header-logo' src="assets/images/Booki.png" alt="logo de Booki" />
         </Link>
         <nav className='header-nav'>
           <ul>     
