@@ -1,0 +1,48 @@
+.Activity-gallery{
+    padding: 30px;
+}
+
+.Activity-gallery_area{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+    .Activity-gallery_area{
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px;    
+        grid-template-areas: 
+          "activity-1 activity-2"
+          "activity-1 activity-3"
+          "activity-4 activity-6"
+          "activity-5 activity-6"; 
+      }
+      .activity-1 { grid-area: activity-1; }
+      .activity-2 { grid-area: activity-2; }
+      .activity-3 { grid-area: activity-3; }
+      .activity-4 { grid-area: activity-4; }
+      .activity-5 { grid-area: activity-5; }
+      .activity-6 { grid-area: activity-6; }
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* ----------------------------- RESPONSIVE : DESKTOP COMPUTER (992px ) ---------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px){
+    .Activity-gallery_area{
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+          "activity-1 activity-2 activity-6 activity-4"
+          "activity-1 activity-3 activity-6 activity-5"; 
+      }
+      
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Vieux Port",
+        "picture": "../assets/images/activites/vieux_port_small.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Fort de Pomégues",
+        "picture": "../assets/images/activites/fort_pomegues_small.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Île du Frioul",
+        "picture": "../assets/images/activites/ile_frioul_small.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Parc National des Calanques",
+        "picture": "../assets/images/activites/parc_calanques_small.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Notre-Dame-de-la-Garde",
+        "picture": "../assets/images/activites/notre_dame_garde_small.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Parc Longchamp",
+        "picture": "../assets/images/activites/parc_longchamp_small.jpg"
+    }
+]

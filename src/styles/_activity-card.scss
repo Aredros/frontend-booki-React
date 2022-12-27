@@ -1,0 +1,47 @@
+.activity-card{
+    height: 250px;
+    display: flex;
+    background: white;
+    box-shadow: 2px 2px 2px 5px #e7e7e7;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 95%;
+    &_photo{
+        height: 100%;
+            border-radius: 20px 20px 0px 0px;
+		overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &_info{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+    .activity-card{
+        height: 200px;
+    }
+
+    .activity-1, .activity-6{
+        height: 400px;
+    }
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* ----------------------------- RESPONSIVE : DESKTOP COMPUTER (992px ) ---------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px){
+
+}

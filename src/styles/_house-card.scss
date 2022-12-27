@@ -1,0 +1,117 @@
+.house-card{
+    display: flex;
+    background: white;
+    box-shadow: 2px 2px 2px 5px #e7e7e7;
+    border-radius: 20px;
+    &_photo{
+		overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &_info{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        &_star-area div{
+            display: flex;
+            flex-direction: row;
+            .star_100 i{
+                color: #0065fc;
+                font-size: 1em;
+            };
+            .star_0 i{
+                color: #d9d9d9;
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+
+.main-houses{
+    .house-card{
+        flex-basis: 100%;
+        flex-direction: column;
+        height: clamp(170px, 100%, 195px);
+        padding: 0.45%;
+        &_photo{
+            height: 116px;
+            border-radius: 20px 20px 0px 0px;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.side-houses{
+    .house-card{
+        flex-basis: 100%;
+        flex-direction: row;                                                                                
+        width: clamp(310px, 100%, 450px);
+        // padding: 0.8%;
+        &_photo{
+            flex-basis: 35%;
+            height: 130px;
+            border-radius: 20px 0px 0px 20px;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &_info{
+            flex-basis: 65%;
+            &_star-area{
+                margin-top: 5%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+
+    .house-card{
+        box-shadow: 8px 6px 6px lightgrey;
+    }
+
+    .main-houses{
+        .house-card{
+            flex-basis: 45%;
+        }
+    }
+
+    .side-houses{
+        .house-card{
+            flex-basis: 45%;
+        }
+    }
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* ----------------------------- RESPONSIVE : DESKTOP COMPUTER (992px ) ---------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px){
+    .main-houses{
+        .house-card{
+            flex-basis: 30%;
+        }
+    }
+
+    .side-houses{
+        .house-card{
+            flex-basis: 100%;
+        }
+    }
+}

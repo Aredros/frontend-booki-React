@@ -1,0 +1,55 @@
+
+//MAIN COLORS
+$base-blue: #0065fc;
+
+@import "./banner";
+@import "./whole-house-area";
+@import "./main-gallery";
+@import "./side-gallery";
+@import "./activity-gallery";
+@import "./filter-button";
+@import "./filter";
+@import "./house-card";
+@import "./activity-card";
+@import "./footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+  font-family: 'Raleway', 'sans-serif', impact, arial;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: clamp(300px, 100%, 1200px);
+  margin: 0 auto;
+}
+
+h1
+{
+  font-family: 'Raleway', 'sans-serif', impact, arial;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  margin-block-start : 0.2em;
+  margin-block-end : 0.2em;
+}
+
+h2
+{
+  font-family: 'Raleway', 'sans-serif', impact, arial;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  margin-block-start : 0.2em;
+  margin-block-end : 0.2em;
+}
+
+.big-title{
+
+}

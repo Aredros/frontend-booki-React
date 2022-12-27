@@ -1,0 +1,200 @@
+/* HEADER */
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    a{
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.header{
+    //HEADER that divides between the logo and the nav link
+    //the logo
+    &-logo{
+        width: 50%;
+		height: auto;
+		padding: 10px;
+        justify-content: center;
+    }
+    //the nav links
+    &-nav{
+        width: 100%;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        a{flex-basis: 50%;}
+        //each individual link
+        &-links{
+            padding: 20px;
+            border-bottom: 3px #d9d9d9 solid ;
+            list-style:none;
+            &:hover{
+                color: $base-blue;
+                border-bottom-color: $base-blue;
+            }
+        }
+    }
+}
+
+.active-banner{
+    color: $base-blue;
+    border-bottom-color: red;
+}
+
+//THE TITLE
+.banner{
+    h1, .banner-subtitle, #filters{
+       margin: 5px 30px;
+    }
+}
+
+//THE SEARCH BAR
+.searchbar{
+    display: flex;
+    width: clamp(370px, 100%, 600px);
+    block-size: 50px;
+    margin:20px auto;
+    //map icon
+    &-icone{
+        background: #f2f2f2;
+		height: 50px;
+		width: 50px;
+		border-radius: 15px 0px 0px 15px;
+		display: flex;
+		block-size: 50px;
+        i{
+            margin: auto;
+        }
+    }
+    //seach input
+    &-input{
+        display: flex;
+		block-size: 46px;
+		border: 2px solid #f2f2f2;
+		height: 46px;
+		width: 196px;
+        input{
+		outline: none;
+		border: none;
+		height: 42px;
+		width: 188px;
+		font-size: 1.2em;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-left: 10px;
+	    }
+    }
+    //search button
+    &-button{
+		background: $base-blue ;
+		height: 50px;
+		width: clamp(50px, 120%, 120px);
+		border-radius: 0px 15px 15px 0px ;
+		block-size: 50px;
+		display: flex;
+		-webkit-border-radius: 0px 15px 15px 0px ;
+		-moz-border-radius: 0px 15px 15px 0px ;
+		-ms-border-radius: 0px 15px 15px 0px ;
+		-o-border-radius: 0px 15px 15px 0px ;
+        p{
+            font-family: 'Raleway', 'sans-serif', impact, arial;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            margin: auto;
+            display: none;
+	    }
+        i{
+            margin: auto;
+            display: flex;
+            color: white;
+        }
+        &:hover{
+            background: #5197ff ;
+        }
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+    .header{
+    flex-direction: row;
+    margin-bottom: auto;
+    justify-content: space-between;
+    &-nav{
+        ul{
+            justify-content: flex-end !important;
+        }
+        a{  flex-basis: auto;}
+        &-links{
+            border-top: 3px white solid ;
+		    border-bottom: 0px;
+		    text-align: center;
+            &:hover{
+                border-top: 3px $base-blue solid;	
+            }
+        }
+    }
+}
+
+//THE TITLE
+
+//THE SEARCH BAR
+.searchbar-button{
+    p{
+        display: block;
+    }
+    i{
+        display: none;
+    }
+}
+
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* ----------------------------- RESPONSIVE : DESKTOP COMPUTER (992px ) ---------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px){
+    header{
+        &-nav{
+            &-links{
+                border-top: 2px $base-blue solid;
+            }
+        }
+    }
+
+//THE TITLE
+
+//THE SEARCH BAR
+
+
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : ONLY PHONE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (max-width: 768px){
+    .banner{
+        h1, p{
+            text-align: center;
+            margin: auto 15px;
+        }
+    }
+    .searchbar{
+        justify-content: center;
+    }
+}

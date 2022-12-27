@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Auberge La Cannebière",
+        "picture": "../assets/images/hebergements/cannebiere.jpg",
+        "price": "25",
+        "ranking": 4,
+        "popular": false
+    },
+    {
+        "id": "2",
+        "name": "Hôtel du port",
+        "picture": "../assets/images/hebergements/hotel_port_small.jpg",
+        "price": "25",
+        "ranking": 2,
+        "popular": false
+    },
+    {
+        "id": "3",
+        "name": "Hôtel les mouettes",
+        "picture": "../assets/images/hebergements/hotel_mouettes_small.jpg",
+        "price": "76",
+        "ranking": 4,
+        "popular": false
+    },
+    {
+        "id": "4",
+        "name": "Hôtel de la mer",
+        "picture": "../assets/images/hebergements/hotel-mer.jpg",
+        "price": "46",
+        "ranking": 3,
+        "popular": false
+    },
+    {
+        "id": "5",
+        "name": "Auberge Le Panier",
+        "picture": "../assets/images/hebergements/auberge_panier_small.jpg",
+        "price": "23",
+        "ranking": 4,
+        "popular": false
+    },
+    {
+        "id": "6",
+        "name": "Hôtel Chez Amina",
+        "picture": "../assets/images/hebergements/hotel_amina_small.jpg",
+        "price": "96",
+        "ranking": 4,
+        "popular": false
+    },
+    {
+        "id": "7",
+        "name": "Hôtel Le Soleil du matin",
+        "picture": "../assets/images/hebergements/hotel_soleil_matin_small.jpg",
+        "price": "128",
+        "ranking": 5,
+        "popular": true
+    },
+    {
+        "id": "8",
+        "name": "Au coeur de l'eau Chambre d'hôtes",
+        "picture": "../assets/images/hebergements/coeur_eau_small.jpg",
+        "price": "71",
+        "ranking": 4,
+        "popular": true
+    },
+    {
+        "id": "9",
+        "name": "Hôtel Tout bleu et Blanc",
+        "picture": "../assets/images/hebergements/hotel_bleu_blanc_small.jpg",
+        "price": "68",
+        "ranking": 4,
+        "popular": true
+    }
+]

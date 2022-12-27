@@ -1,0 +1,66 @@
+//The layout of the filter
+.filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        margin: auto;
+    }
+    &-main-title p{
+        font-weight: bold;
+    }
+    //box for the filters
+    &-box_filters{
+        display: flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		grid-row-gap: 10px;
+        //avoiding the filters from touching the border		
+        margin: 20px;
+    }
+}
+
+.info{
+    display: flex;
+    max-width: 500px;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &-icone{
+        min-height: 28px;
+		min-width: 28px;
+		border-radius: 20px;
+		border : #d9d9d9 solid 1px ;
+		display: flex;	
+        i{
+            margin: auto;
+            color: $base-blue;
+            font-size: 0.8em;
+        }
+    }
+    &-txt{
+        margin-left:10px;
+		height: 30px;
+        p{
+            font-weight: normal;
+            text-align: left;
+        }
+    }
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+    
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* ----------------------------- RESPONSIVE : DESKTOP COMPUTER (992px ) ---------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px){
+
+}

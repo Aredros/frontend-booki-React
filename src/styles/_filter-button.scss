@@ -1,0 +1,58 @@
+
+.filter-element{
+    display: flex;
+    height: 50px;
+    max-width: 600px;
+    align-items: baseline;
+    &-icone{
+		background: #deebff;
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+		display: flex;
+		position: absolute;    
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		-ms-border-radius: 50px;
+		-o-border-radius: 50px;
+        i{
+            margin: auto;
+            color: $base-blue
+        }
+    }
+    &-title{
+        height: 44px;
+		width: auto;
+		padding-left: 30px;
+		padding-right: 25px;
+		background: white;
+		text-align: center;
+		margin-left: 25px;
+		border-radius: 0px 50px 50px 0px;
+		border: #d9d9d9 solid 3px;
+		display: flex;
+        p{
+            margin: auto;
+        }
+        &:hover{
+            background: #deebff;
+            border-radius: 0px 50px 50px 0px;
+            border: #deebff solid 3px;
+        }
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+    
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* ----------------------------- RESPONSIVE : DESKTOP COMPUTER (992px ) ---------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px){
+
+}
