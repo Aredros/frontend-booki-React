@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Auberge La Cannebière",
-        "picture": "../assets/images/hebergements/cannebiere.jpg",
+        "picture": "../assets/images/hebergements/cannebiere.jpg", 
         "price": "25",
         "ranking": 4,
         "popular": false
