@@ -2,31 +2,31 @@
     {
         "id": "1",
         "name": "Vieux Port",
-        "picture": "../assets/images/activites/vieux_port_small.jpg"
+        "picture": "https://images.pexels.com/photos/15172174/pexels-photo-15172174.jpeg"
     },
     {
         "id": "2",
         "name": "Fort de Pomégues",
-        "picture": "../assets/images/activites/fort_pomegues_small.jpg"
+        "picture": "https://images.pexels.com/photos/15172164/pexels-photo-15172164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "3",
         "name": "Île du Frioul",
-        "picture": "../assets/images/activites/ile_frioul_small.jpg"
+        "picture": "https://images.pexels.com/photos/15172171/pexels-photo-15172171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "4",
         "name": "Parc National des Calanques",
-        "picture": "../assets/images/activites/parc_calanques_small.jpg"
+        "picture": "https://images.pexels.com/photos/15172170/pexels-photo-15172170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "5",
         "name": "Notre-Dame-de-la-Garde",
-        "picture": "../assets/images/activites/notre_dame_garde_small.jpg"
+        "picture": "https://images.pexels.com/photos/15172166/pexels-photo-15172166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "6",
         "name": "Parc Longchamp",
-        "picture": "../assets/images/activites/parc_longchamp_small.jpg"
+        "picture": "https://images.pexels.com/photos/15172169/pexels-photo-15172169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
 ]

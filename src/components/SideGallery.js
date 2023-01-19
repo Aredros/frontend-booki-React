@@ -2,6 +2,8 @@ import React from "react";
 import HousesCard from "./HousesCard";
 
 function SideGallery ({SideCards}){
+    const justSixSide = SideCards.slice(0,3);
+
     return(
         <div className="side-hebergements">
             <div className="side-hebergements-heading">
@@ -10,7 +12,7 @@ function SideGallery ({SideCards}){
             </div>
             <section className="side-houses">
                {//we write an interrogation sign after the name of the variable to check if it exists (for timing issues)
-               SideCards?.map((houseElement) =>(
+               justSixSide?.map((houseElement) =>(
                     <HousesCard key={houseElement.id} houseElement={houseElement} />
                ))
                }

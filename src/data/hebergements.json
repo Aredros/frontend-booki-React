@@ -2,73 +2,283 @@
     {
         "id": "1",
         "name": "Auberge La Cannebière",
-        "picture": "../assets/images/hebergements/cannebiere.jpg", 
+        "city": "Marseille",
+        "picture": "https://images.pexels.com/photos/15172278/pexels-photo-15172278.jpeg?auto=compress&cs=tinysrgb&w=640", 
         "price": "25",
         "ranking": 4,
-        "popular": false
+        "popular": false,
+        "categories": [
+            "Economique",
+            "Familial"
+        ]
     },
     {
         "id": "2",
         "name": "Hôtel du port",
-        "picture": "../assets/images/hebergements/hotel_port_small.jpg",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/15172281/pexels-photo-15172281.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "25",
         "ranking": 2,
-        "popular": false
+        "popular": false,
+        "categories": [
+            "Animals",
+            "Familial"
+        ]
     },
     {
         "id": "3",
         "name": "Hôtel les mouettes",
-        "picture": "../assets/images/hebergements/hotel_mouettes_small.jpg",
+        "city": "Marseille",
+        "picture": "https://images.pexels.com/photos/15172277/pexels-photo-15172277.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "76",
         "ranking": 4,
-        "popular": false
+        "popular": false,
+        "categories": [
+            "Romantique",
+            "Familial"
+        ]
     },
     {
         "id": "4",
         "name": "Hôtel de la mer",
-        "picture": "../assets/images/hebergements/hotel-mer.jpg",
+        "city": "Montpellier",
+        "picture": "https://images.pexels.com/photos/15172275/pexels-photo-15172275.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "46",
         "ranking": 3,
-        "popular": false
+        "popular": false,
+        "categories": [
+            "Economique",
+            "Animals"
+        ]
     },
     {
         "id": "5",
         "name": "Auberge Le Panier",
-        "picture": "../assets/images/hebergements/auberge_panier_small.jpg",
+        "city": "Toulouse",
+        "picture": "https://images.pexels.com/photos/15172283/pexels-photo-15172283.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "23",
         "ranking": 4,
-        "popular": false
+        "popular": false,
+        "categories": [
+            "Familial",
+            "Animals"
+        ]
     },
     {
         "id": "6",
         "name": "Hôtel Chez Amina",
-        "picture": "../assets/images/hebergements/hotel_amina_small.jpg",
+        "city": "Toulouse",
+        "picture": "https://images.pexels.com/photos/15172282/pexels-photo-15172282.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "96",
         "ranking": 4,
-        "popular": false
+        "popular": false,
+        "categories": [
+            "Animals",
+            "Romantique"
+        ]
     },
     {
         "id": "7",
         "name": "Hôtel Le Soleil du matin",
-        "picture": "../assets/images/hebergements/hotel_soleil_matin_small.jpg",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/15172276/pexels-photo-15172276.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "128",
         "ranking": 5,
-        "popular": true
+        "popular": true,
+        "categories": "Romantique"
     },
     {
         "id": "8",
         "name": "Au coeur de l'eau Chambre d'hôtes",
-        "picture": "../assets/images/hebergements/coeur_eau_small.jpg",
+        "city": "Marseille",
+        "picture": "https://images.pexels.com/photos/15172280/pexels-photo-15172280.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "71",
         "ranking": 4,
-        "popular": true
+        "popular": true,
+        "categories": "Animals"
     },
     {
         "id": "9",
         "name": "Hôtel Tout bleu et Blanc",
-        "picture": "../assets/images/hebergements/hotel_bleu_blanc_small.jpg",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/15172279/pexels-photo-15172279.jpeg?auto=compress&cs=tinysrgb&w=640",
         "price": "68",
         "ranking": 4,
-        "popular": true
+        "popular": true,
+        "categories": "Romantique"
+    },
+    {
+        "id": "10",
+        "name": "La maison bleu",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/12660749/pexels-photo-12660749.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "75",
+        "ranking": 5,
+        "popular": false,
+        "categories": "Familial"
+    },
+    {
+        "id": "11",
+        "name": "Maison grande",
+        "city": "Montpellier",
+        "picture": "https://images.pexels.com/photos/12285818/pexels-photo-12285818.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "25",
+        "ranking": 2,
+        "popular": false,
+        "categories": [
+            "Economique",
+            "Animals"
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Garden de vie",
+        "city": "Marseille",
+        "picture": "https://images.pexels.com/photos/12749680/pexels-photo-12749680.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "85",
+        "ranking": 4,
+        "popular": true,
+        "categories": [
+            "Romantique",
+            "Animals"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Chocolate lodge",
+        "city": "Toulouse",
+        "picture": "https://images.pexels.com/photos/12754872/pexels-photo-12754872.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "69",
+        "ranking": 5,
+        "popular": false,
+        "categories": [
+            "Economique",
+            "Familial"
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Piano house",
+        "city": "Lille",
+        "picture": "https://images.pexels.com/photos/14715830/pexels-photo-14715830.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "91",
+        "ranking": 3,
+        "popular": true,
+        "categories": [
+            "Economique",
+            "Romantique"
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Piano house of P",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/14715830/pexels-photo-14715830.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "90",
+        "ranking": 5,
+        "popular": true,
+        "categories": [
+            "Familial",
+            "Animals"
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Plain House",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "51",
+        "ranking": 4,
+        "popular": false,
+        "categories": [
+            "Romantique",
+            "Animals"
+        ]
+    },
+    {
+        "id": "17",
+        "name": "Marseihome",
+        "city": "Marseille",
+        "picture": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "120",
+        "ranking": 3,
+        "popular": false,
+        "categories": [
+            "Familial",
+            "Animals"
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Beach ville",
+        "city": "Marseille",
+        "picture": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "25",
+        "ranking": 3,
+        "popular": false,
+        "categories": [
+            "Romantique",
+            "Animals"
+        ]
+    },
+    {
+        "id": "19",
+        "name": "La city casa",
+        "city": "Montpellier",
+        "picture": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "69",
+        "ranking": 4,
+        "popular": false,
+        "categories": "Economique"
+    },
+    {
+        "id": "20",
+        "name": "Montpellierano",
+        "city": "Montpellier",
+        "picture": "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "92",
+        "ranking": 2,
+        "popular": false,
+        "categories": "Animals"
+    },
+    {
+        "id": "21",
+        "name": "Student you",
+        "city": "Toulouse",
+        "picture": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "74",
+        "ranking": 5,
+        "popular": false,
+        "categories": "Familial"
+    },
+    {
+        "id": "22",
+        "name": "Chespirito",
+        "city": "Toulouse",
+        "picture": "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "55",
+        "ranking": 2,
+        "popular": false,
+        "categories": "Romantique"
+    },
+    {
+        "id": "23",
+        "name": "La villa bleu",
+        "city": "Toulouse",
+        "picture": "https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "45",
+        "ranking": 4,
+        "popular": false,
+        "categories": "Animals"
+    },
+    {
+        "id": "24",
+        "name": "Cave n you",
+        "city": "Paris",
+        "picture": "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=640",
+        "price": "63",
+        "ranking": 4,
+        "popular": false,
+        "categories": "Familial"
     }
 ]
