@@ -9,7 +9,7 @@ const Home = () => {
   //  const firstObject = data.shift();
 
   return (
-    <div className="App">
+    <div className="App" id="anchor">
     <Banner />
     <WholeHouseArea />
     <ActivityGallery />

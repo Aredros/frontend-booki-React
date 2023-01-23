@@ -33,7 +33,7 @@ function handleValueChange(event) {
 
 
   return (
-    <div className='housing-area'>
+    <div className='housing-area' >
         <div className='bar-n-filter'>
         <section className='searchbar'>
           <div className="searchbar-icone">

@@ -18,7 +18,7 @@ header
     //HEADER that divides between the logo and the nav link
     //the logo
     &-logo{
-        width: 50%;
+        width: 135%;
 		height: auto;
 		padding: 10px;
         justify-content: center;
@@ -44,6 +44,34 @@ header
         }
     }
 }
+
+//EYE ANIMATION PARAMETERS
+.main-logo-area{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.main-logo-area .eye{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 38%;
+    -webkit-border-radius: 38%;
+    -moz-border-radius: 38%;
+    -ms-border-radius: 38%;
+    -o-border-radius: 38%;
+}
+
+.eye-1{
+    top: 70px; 
+    left: 26px;}
+
+.eye-2{    
+    top: 70px;
+    left: 55px
+;}
+
+//END OF EYE ANIMATION PARAMETERS
 
 .active-banner{
     color: $base-blue;
