@@ -45,11 +45,38 @@
     -o-transform: scale(1);
 }
 
+//FILTER ANIMATIONS
+.filter-element{
+	&-title{
+		background: white;
+	}
+}
+
+.filter-element:hover, .filter-element:focus{
+	.filter-element-title{
+		background: #DEEBFF;
+		border: #DEEBFF solid 3px;
+}
+	i{
+		animation: filter-spin 0.25s 1 linear;
+		-webkit-animation: filter-spin 0.25s 1 linear;
+	} 
+}
+
+@keyframes filter-spin {
+	0% { transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+
 /*--------------------------------------------------------------------------------------------------------*/
 /* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
 /*--------------------------------------------------------------------------------------------------------*/
 @media (min-width: 768px){
+	//UNDERLINE ANIMATION
     .underline-animation::before{
         top: 0;
     }
+
+
 }

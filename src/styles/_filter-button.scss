@@ -25,7 +25,6 @@
 		width: auto;
 		padding-left: 30px;
 		padding-right: 25px;
-		background: white;
 		text-align: center;
 		margin-left: 25px;
 		border-radius: 0px 50px 50px 0px;
@@ -33,11 +32,6 @@
 		display: flex;
         p{
             margin: auto;
-        }
-        &:hover{
-            background: #deebff;
-            border-radius: 0px 50px 50px 0px;
-            border: #deebff solid 3px;
         }
     }
 }
