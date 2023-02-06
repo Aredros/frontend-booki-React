@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/frontend-booki-React/static/css/main.8115f0d0.css",
+    "main.css": "/frontend-booki-React/static/css/main.144bca05.css",
     "main.js": "/frontend-booki-React/static/js/main.9bf34994.js",
     "static/js/787.bffb404a.chunk.js": "/frontend-booki-React/static/js/787.bffb404a.chunk.js",
     "index.html": "/frontend-booki-React/index.html",
-    "main.8115f0d0.css.map": "/frontend-booki-React/static/css/main.8115f0d0.css.map",
+    "main.144bca05.css.map": "/frontend-booki-React/static/css/main.144bca05.css.map",
     "main.9bf34994.js.map": "/frontend-booki-React/static/js/main.9bf34994.js.map",
     "787.bffb404a.chunk.js.map": "/frontend-booki-React/static/js/787.bffb404a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8115f0d0.css",
+    "static/css/main.144bca05.css",
     "static/js/main.9bf34994.js"
   ]
 }
