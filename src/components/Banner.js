@@ -54,10 +54,10 @@ const Banner = () => {
         <nav className='header-nav'>
           <ul>     
             <NavLink to="/" className="active-banner">
-              <li className='header-nav-links'>Hébergement</li>
+              <li className='header-nav-links underline-animation'>Hébergement</li>
             </NavLink>
             <NavLink to="/" className="active-banner">
-              <li className='header-nav-links'>Activités</li>
+              <li className='header-nav-links underline-animation'>Activités</li>
             </NavLink>
           </ul>
         </nav>

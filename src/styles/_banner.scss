@@ -18,7 +18,7 @@ header
     //HEADER that divides between the logo and the nav link
     //the logo
     &-logo{
-        width: 135%;
+        width: 100%;
 		height: auto;
 		padding: 10px;
         justify-content: center;
@@ -39,7 +39,6 @@ header
             list-style:none;
             &:hover{
                 color: $base-blue;
-                border-bottom-color: $base-blue;
             }
         }
     }
@@ -49,7 +48,6 @@ header
 .main-logo-area{
     position: relative;
     display: grid;
-    place-items: center;
 }
 .main-logo-area .eye{
     position: absolute;
@@ -63,13 +61,13 @@ header
 }
 
 .eye-1{
-    top: 70px; 
-    left: 26px;}
+    top: 65px; 
+    left: 61px;}
 
 .eye-2{    
-    top: 70px;
-    left: 55px
-;}
+    top: 65px;
+    left: 89px
+}
 
 //END OF EYE ANIMATION PARAMETERS
 
@@ -161,20 +159,30 @@ header
     flex-direction: row;
     margin-bottom: auto;
     justify-content: space-between;
+        //the logo
+        &-logo{
+            width: 135%;
+        }
     &-nav{
         ul{
             justify-content: flex-end !important;
+            gap: 20px;
         }
         a{  flex-basis: auto;}
         &-links{
             border-top: 3px white solid ;
 		    border-bottom: 0px;
 		    text-align: center;
-            &:hover{
-                border-top: 3px $base-blue solid;	
-            }
         }
     }
+}
+.eye-1{
+    top: 75px; 
+    left: 74px;}
+
+.eye-2{    
+    top: 75px;
+    left: 106px
 }
 
 //THE TITLE

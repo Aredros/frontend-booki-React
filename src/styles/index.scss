@@ -2,17 +2,6 @@
 //MAIN COLORS
 $base-blue: #0065fc;
 
-@import "./banner";
-@import "./whole-house-area";
-@import "./main-gallery";
-@import "./side-gallery";
-@import "./activity-gallery";
-@import "./filter-button";
-@import "./filter";
-@import "./house-card";
-@import "./activity-card";
-@import "./footer";
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *
@@ -53,3 +42,17 @@ h2
 .big-title{
 
 }
+
+//COMPONENTS
+@import "./chargin-banner";
+@import "./banner";
+@import "./whole-house-area";
+@import "./main-gallery";
+@import "./side-gallery";
+@import "./filter-button";
+@import "./filter";
+@import "./house-card";
+@import "./activity-card";
+@import "./activity-gallery";
+@import "./footer";
+@import "./animations";
