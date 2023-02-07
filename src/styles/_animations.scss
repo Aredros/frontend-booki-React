@@ -50,6 +50,9 @@
 	&-title{
 		background: white;
 	}
+	:hover{
+		cursor: pointer;
+	}
 }
 
 .filter-element:hover, .filter-element:focus{
@@ -68,6 +71,35 @@
 	100% { transform: rotate(360deg); }
 }
 
+//ACTIVITY ANIMATION
+.activity-card:hover{
+	cursor: pointer;
+}
+
+//ACTIVITY ANIMATION small images
+.activity-2:hover > .activity-card_photo img,
+.activity-3:hover > .activity-card_photo img,
+.activity-4:hover > .activity-card_photo img,
+.activity-5:hover > .activity-card_photo img{
+	animation: bottom-top 3s 1 linear;
+	-webkit-animation: bottom-top 3s 1 linear;
+}
+
+@keyframes bottom-top{
+	0%{
+		object-position: left;
+		width: 100%;
+	}
+	50%{
+		object-position: center;
+		width: 120%;
+	}
+	100%{
+		object-position: right;
+		width: 140%;
+	}
+}
+
 
 /*--------------------------------------------------------------------------------------------------------*/
 /* --------------------------------- RESPONSIVE : TABLETTE ( 768px) ------------------------------------- */
@@ -78,5 +110,33 @@
         top: 0;
     }
 
+	//ACTIVITY ANIMATION big images
+.activity-1:hover > .activity-card_photo img,
+.activity-6:hover > .activity-card_photo img{
+	animation: left-right 4s 1 linear;
+	-webkit-animation: left-right 4s 1 linear;
+}
+
+@keyframes left-right{
+	0%{
+		object-position: center;
+	}
+	100%{
+		object-position: right;
+	}
+}
+
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* --------------------------------- RESPONSIVE : ONLY PHONES  ------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------*/
+@media (max-width: 768px){
+	//ACTIVITY ANIMATION big in phone
+.activity-1:hover > .activity-card_photo img,
+.activity-6:hover > .activity-card_photo img{
+	animation: bottom-top 3s 1 linear;
+	-webkit-animation: bottom-top 3s 1 linear;
+}
 
 }
